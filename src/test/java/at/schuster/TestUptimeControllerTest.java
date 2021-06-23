@@ -15,8 +15,8 @@ public class TestUptimeControllerTest {
         // Act
         String actualValue = controller.calculateUptime(99.95);
         // Assert
-        //Assertions.assertEquals(String.format("%.2f", 43178.40), actualValue);
-        Assertions.assertEquals("43178,40", actualValue);
+        Assertions.assertEquals(String.format("%.2f", 43178.40), actualValue); //verwendet nach dem Build Fehler in den Actions
+        //Assertions.assertEquals("43178,40", actualValue);
 
     }
 
