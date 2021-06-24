@@ -19,6 +19,7 @@ public class Main {
         }
         server.stop(0);
         System.out.println("Server stopped...");
+        System.out.println("Server stopped again");
 
     }
 }
